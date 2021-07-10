@@ -1,0 +1,16 @@
+.first{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.contianer {
+    display: flex;
+    background-color: red;
+}
+
+@media screen and (max: 725) {
+    .contianer {
+        background-color: red;
+    }
+}
