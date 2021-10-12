@@ -1,14 +1,11 @@
+body{
+    overflow: hidden;
+}
+
 .firstColumn{
     height: 100vh;
+    background-color: white;
     /* width: auto; */
    
 }
 
-/* .contain {
-    padding: 40px;
-    margin-top: 20px;
-} */
-
-body {
-    overflow: hidden; /* Hide scrollbars */
-  }

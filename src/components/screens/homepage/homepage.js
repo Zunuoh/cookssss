@@ -5,6 +5,7 @@ import '../../../styles/style.css';
 import { Row, Col} from 'react-bootstrap';
 import SectionOne from './sectionOne';
 import SectionTwo from './sectionTwo';
+import SectionThree from './sectionThree';
 const Homepage =()=>{
     return(
         <div>
@@ -17,7 +18,9 @@ const Homepage =()=>{
                 <SectionTwo/>
             </Col>
             {/* next column */}
-            <Col style={{backgroundColor: 'blue'}} >3 of 3</Col>
+            <Col style={{backgroundColor: 'white'}} >
+                <SectionThree/>
+            </Col>
         </Row>
         </div>
     )
